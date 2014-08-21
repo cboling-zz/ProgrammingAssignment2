@@ -1,6 +1,13 @@
-## This file provides two functions that perform
-## functions do
-
+## This file provides two functions that perform functions to calculate
+## the inverse of a user supplied matrix.  The result is cached so that
+## calls after the first will quickly return the cached value
+##
+## NOTE: Per the assignment rules, these functions only support a square
+##       invertable matix (N by N).
+##
+## A unit test program is provided by the 'cacheSolve.UnitTest' function in
+## this file.
+##
 #####################################################################
 ## Calculate the inverse of a matix and caches the result in case
 ## it is requested again
